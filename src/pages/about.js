@@ -11,7 +11,7 @@ export default function About(){
         <ol>Pokemon API Request (Fetch API)</ol>
         <ol>CSS/SCSS, media queries</ol>
         <ol>Random Pokemon search input</ol>
-        <ol>getStaticProps, useState,useEffect,</ol>
+        <ol>getStaticProps, useState,useEffect</ol>
         <ol></ol>
     </ul>
     <Image src="/image/pikachu.png" alt="pokemon" width={250} height={300}/>
