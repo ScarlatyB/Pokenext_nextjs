@@ -38,14 +38,14 @@ export default function AllPokemons({pokemons}){
     return(
     <div>
       <SearchPoke pokemon={pokemons}/>
-       <div className={styles.title_container}>
+      <div className={styles.title_container}>
         <h1 className={styles.h1}>Poke<span className={styles.span}>Next</span></h1>
         <Image className={styles.imgPokebola} src="/image/pokebola.png" alt="pokebola" width={50} height={50}/>
       </div>
       
       <div className={styles.pokemon_container}>
       {pokemons && pokemons.map((pokemon)=>(
-     <Card key={pokemon.id} pokemon={pokemon}/>
+      <Card key={pokemon.id} pokemon={pokemon}/>
       ))}
       </div>
     </div>

@@ -7,16 +7,16 @@
     background-color: #212529;
     color: #fff;
 
-    @media (max-width: 480px) {
-        width: 105%;
-    }
+@media (max-width: 480px) {
+    width: 105%;
+}
 }
 
 .logo{
     display: flex;
     justify-content: center;
     align-items: center;
-   
+
 }
 .links_items{
     display: flex;
@@ -34,12 +34,12 @@
     a:hover{
         border-color:aliceblue
     }
-    @media (max-width: 480px) {
-     li{
+@media (max-width: 480px) {
+    li{
         font-size: 11px;
         margin-right: 1px;
         text-transform: uppercase;
-     }   
+    }   
     }
 
 }
@@ -47,7 +47,7 @@
 .h1{
     color: #b5838d;
     font-size: 30px;
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
     font-size: 15px;
     margin-left: 1px;
     }

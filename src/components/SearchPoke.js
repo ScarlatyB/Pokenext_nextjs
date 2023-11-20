@@ -9,17 +9,17 @@ export default function SearchPoke({pokemon}){
     console.log('returnpoki',pokemon)
 
     const [SearchPokemon, SetSearchPokemon] = useState("")
-  
+
 
 
     return(
     
         <div  className={styles.searchP}>
-        <input
-         type="text" 
-         placeholder = "search your pokemon here"
-         onChange = {(event) => {
-        SetSearchPokemon(event.target.value);
+            <input
+            type="text" 
+            placeholder = "search your pokemon here"
+            onChange = {(event) => {
+            SetSearchPokemon(event.target.value);
         }}
         />
         {pokemon && pokemon.filter((val) =>{
@@ -29,12 +29,12 @@ export default function SearchPoke({pokemon}){
                 return val
             }
         }).map((pokemon)=>{
-          return (
-          
-          <div key={pokemon} className={styles.imgSearcthp} >
-           <Card key={pokemon.id}pokemon={pokemon} className={styles.card} />
-          </div>
-          )
+            return (
+        
+        <div key={pokemon} className={styles.imgSearcthp} >
+            <Card key={pokemon.id}pokemon={pokemon} className={styles.card} />
+        </div>
+        )
         })}
         </div>
     )

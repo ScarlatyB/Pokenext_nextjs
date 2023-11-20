@@ -14,29 +14,29 @@
   width: 380px;
   margin-left: 550px;
   margin-bottom: 50px;
-  @media (max-width: 450px) {
-    margin-left: 0px;
-    width: 105%;
+@media (max-width: 450px) {
+  margin-left: 0px;
+  width: 105%;
   
   } 
-  input{
-    background-color: #FFC107;
-    padding: 16px 32px;
-    border: none;
-    display: block;
-    font-family: 'Orbitron', sans-serif;
-    font-weight: 600;
-    color: #000000;
-    -webkit-appearance: none;
-    transition: all 240ms ease-out;
-    width: 111%;
+input{
+  background-color: #FFC107;
+  padding: 16px 32px;
+  border: none;
+  display: block;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  color: #000000;
+  -webkit-appearance: none;
+  transition: all 240ms ease-out;
+  width: 111%;
 
-    @media (max-width: 450px) {
-    height: 47px;
-    margin-top: -1px;
-    padding-left: 53px;
-    padding-bottom: 18px;
-    }
+@media (max-width: 450px) {
+  height: 47px;
+  margin-top: -1px;
+  padding-left: 53px;
+  padding-bottom: 18px;
+  }
   }
 }
 

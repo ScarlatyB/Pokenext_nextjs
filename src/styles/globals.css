@@ -3,14 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 body{
     background-color: #ffb703;
-   
-    @media (max-width: 480px) {
-        width: 100%;
-    }
+@media (max-width: 480px) {
+    width: 100%;
+}
 }
 
 .main-container{

@@ -11,12 +11,12 @@ import Home from './home'
 
 export default function Front () {
 
-   return (
+return (
         <div>
         <Home />
         </div>
 
-  )
-      }
+)
+}
 
 
